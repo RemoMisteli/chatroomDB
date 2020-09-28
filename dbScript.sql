@@ -6,3 +6,4 @@ CREATE TABLE `messages` (
   PRIMARY KEY (id)
 )
   
+ALTER TABLE `messages` CHANGE `id` `id` INT(11) NOT NULL AUTO_INCREMENT;
