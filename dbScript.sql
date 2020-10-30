@@ -4,6 +4,7 @@ CREATE TABLE `messages`(
   `id` int(11) NOT NULL,
   `user` varchar(255) NOT NULL,
   `content` varchar(255) NOT NULL,
+   `TIMESTAMP` date NOT NULL  DEFAULT CURRENT_TIMESTAMP,
 PRIMARY KEY (id));
 
 
